@@ -9,8 +9,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var userSerttings = UserSettings()
+    
     var body: some View {
-        Text("Hello, World!")
+        
+        VStack {
+            Text("\(userSerttings.score)")
+                .font(.title)
+            Button("Increment Score"){
+                self.userSerttings.score += 1
+            }.padding(16)
+                .foregroundColor(.green)
+        }
+        
     }
 }
 

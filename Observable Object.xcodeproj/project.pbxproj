@@ -16,6 +16,7 @@
 		834F3CE924435EFC00130B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834F3CE724435EFC00130B99 /* LaunchScreen.storyboard */; };
 		834F3CF424435EFC00130B99 /* Observable_ObjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F3CF324435EFC00130B99 /* Observable_ObjectTests.swift */; };
 		834F3CFF24435EFC00130B99 /* Observable_ObjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F3CFE24435EFC00130B99 /* Observable_ObjectUITests.swift */; };
+		834F3D0D24435F5700130B99 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834F3D0C24435F5700130B99 /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		834F3CFA24435EFC00130B99 /* Observable ObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Observable ObjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		834F3CFE24435EFC00130B99 /* Observable_ObjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable_ObjectUITests.swift; sourceTree = "<group>"; };
 		834F3D0024435EFC00130B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834F3D0C24435F5700130B99 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				834F3CEA24435EFC00130B99 /* Info.plist */,
 				834F3CDD24435EF500130B99 /* Observable_Object.xcdatamodeld */,
 				834F3CE424435EFC00130B99 /* Preview Content */,
+				834F3D0C24435F5700130B99 /* UserSettings.swift */,
 			);
 			path = "Observable Object";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				834F3CDA24435EF500130B99 /* AppDelegate.swift in Sources */,
 				834F3CDC24435EF500130B99 /* SceneDelegate.swift in Sources */,
 				834F3CE124435EF500130B99 /* ContentView.swift in Sources */,
+				834F3D0D24435F5700130B99 /* UserSettings.swift in Sources */,
 				834F3CDF24435EF500130B99 /* Observable_Object.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
